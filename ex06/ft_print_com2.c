@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_com2.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+        */
+/*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+      */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025-08-13 22:22:03 by muhmajee          #+#    #+#             */
 /*   Updated: 2025-08-13 22:22:03 by muhmajee         ###   ########.fr       */
