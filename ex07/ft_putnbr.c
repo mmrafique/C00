@@ -6,7 +6,7 @@
 /*   By: muhmajee <muhmajee@student.42barcelona.com>  #+#  +:+       +#+      */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025-08-13 22:57:07 by muhmajee          #+#    #+#             */
-/*   Updated: 2025-08-13 22:57:07 by muhmajee         ###   ########.fr       */
+/*   Updated: 2025/08/14 13:59:32 by muhmajee         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,14 @@ void	ft_putnbr(int nb)
 	if (nb < 0)
 	{
 		write(1, "-", 1);
-		if (nb == -2147482648)
+		if (nb == -2147483648)
 		{
 			write(1, "2147483648", 10);
 			return ;
 		}
 		nb = -nb;
 	}
-	if (nb > 10)
+	if (nb >= 10)
 		ft_putnbr(nb / 10);
 	c = nb % 10 + '0';
 	write(1, &c, 1);
@@ -34,7 +34,9 @@ void	ft_putnbr(int nb)
 
 int	main(void)
 {
-	ft_putnbr(-42);
+	ft_putnbr(-10);
+	write(1, "\n", 1);
+	ft_putnbr(10);
 	write(1, "\n", 1);
 	return (0);
 }
